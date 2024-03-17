@@ -1,0 +1,112 @@
+# Background and foreground colors
+# background #1a1b26
+#foreground #c0caf5
+
+# Selection colors
+# selection_background #283457
+# selection_foreground #c0caf5
+
+# URL color
+# url_color #73daca
+
+# Cursor colors
+# cursor #c0caf5
+# cursor_text_color #1a1b26
+
+# Background opacity
+background_opacity 0.98
+adjust_line_height 120%
+
+# Tabs
+# active_tab_background #7aa2f7
+# active_tab_foreground #16161e
+# inactive_tab_background #292e42
+# inactive_tab_foreground #545c7e
+
+# Windows
+# active_border_color #7aa2f7
+# inactive_border_color #292e42
+
+# Normal colors
+# color0 #15161e
+# color1 #f7768e
+# color2 #9ece6a
+# color3 #e0af68
+# color4 #7aa2f7
+# color5 #bb9af7
+# color6 #7dcfff
+# color7 #a9b1d6
+
+# Bright colors
+# color8 #414868
+# color9 #f7768e
+# color10 #9ece6a
+# color11 #e0af68
+# color12 #7aa2f7
+# color13 #bb9af7
+# color14 #7dcfff
+# color15 #c0caf5
+
+# Extended colors
+# color16 #ff9e64
+# color17 #db4b4b
+
+# Other configurations
+confirm_os_window_close 0
+update_check_interval 0
+# macos_titlebar_color background
+macos_opt_as_alt yes
+
+map shift+enter send_text all \x1b[13;2u
+map ctrl+i send_text all \x1b[105;5u
+
+tab_title_template "{index}: {tab.active_oldest_wd[tab.active_oldest_wd.rfind('/')+1:]}"  
+
+font_family      JetBrainsMono Nerd Font
+font_size        18 
+bold_font        auto
+bold_italic_font auto
+
+## Tab Bar
+tab_bar_edge top
+tab_bar_style fade
+tab_fade 0 1 1 1
+map ctrl+shift+o next_layout
+# active_tab_foreground   #abb2bf
+# active_tab_background   #32363e
+active_tab_font_style   bold-italic
+# inactive_tab_foreground #6b727f 
+# inactive_tab_background #282c34
+inactive_tab_font_style normal
+
+map ctrl+right next_tab
+map ctrl+left previous_tab
+map ctrl+shift+l next_tab
+map ctrl+shift+h previous_tab
+map ctrl+shift+j launch --cwd current --type tab --location after
+map ctrl+shift+k close_tab
+
+map super+1 goto_tab 1
+map super+2 goto_tab 2
+map cmd+3 goto_tab 3
+map cmd+4 goto_tab 4
+map cmd+5 goto_tab 5
+map cmd+6 goto_tab 6
+map cmd+7 goto_tab 7
+map cmd+8 goto_tab 8
+map cmd+9 goto_tab 9
+
+map ctrl+p nth_window -1
+
+
+allow_remote_control yes
+listen_on unix:/tmp/kitty
+shell_integration enabled
+include current-theme.conf
+action_alias kitty_scrollback_nvim kitten /Users/kverma/.local/share/lunarvim/site/pack/lazy/opt/kitty-scrollback.nvim/python/kitty_scrollback_nvim.py
+
+
+# BEGIN_KITTY_THEME
+# Adapta Nokto Maia
+include current-theme.conf
+# END_KITTY_THEME
