@@ -1,0 +1,251 @@
+{
+  "window.titleBarStyle": "custom",
+  "git.autofetch": true,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 16,
+  "editor.codeLensFontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [],
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.experimentalLinkProvider": false,
+  "terminal.integrated.rendererType": "auto",
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    },
+    {
+      "before": [
+        "p"
+      ],
+      "after": [
+        "p",
+        "g",
+        "v",
+        "y"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-h>"
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "commands": [
+        "workbench.action.previousEditor"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "commands": [
+        "workbench.action.nextEditor"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<C-w>",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "<C-w>",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "<C-l>"
+      ],
+      "after": [
+        "<C-w>",
+        "l"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        ""
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f",
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<C-tab>"
+      ],
+      "after": [
+        "H"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "/",
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.goToReferences"
+      ],
+      "silent": true
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
+      "silent": true
+    },
+    // {
+    //   "before": [
+    //     "<leader>",
+    //     "e"
+    //   ],
+    //   // "commands": [
+    //   //   "Workbench.action.openExplorerOnEnd"
+    //   // ],
+    //   // "silent": true
+    // }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-e>": false,
+    "<C-f>": false,
+    "<C-w>": false,
+    // "<C-b>": false
+    // "<C-j>": true,
+    // "<C-w>": true,
+    // "<C-k>": true
+  },
+  "editor.smoothScrolling": true,
+  "files.autoSave": "afterDelay",
+  "git.ignoreRebaseWarning": true,
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "editor.inlineSuggest.enabled": true,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true
+  },
+  "editor.stickyScroll.enabled": true,
+  "java.format.settings.url": "/Users/kverma/.config/eclipse-java-serapis-style.xml",
+  "boot-java.rewrite.reconcile": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "[typescriptreact]": {
+  // "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  // },
+  "eslint.format.enable": true,
+  "terminal.integrated.fontSize": 18,
+  "eslint.packageManager": "yarn",
+  "prettier.bracketSpacing": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "editor.autoIndent": "keep",
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.startupEditor": "none",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "shakram02.bash-beautify"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "githubPullRequests.pullBranch": "never",
+  "diffEditor.experimental.useVersion2": true,
+  "diffEditor.diffAlgorithm": "advanced",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "pretty-poimandres",
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "window.zoomLevel": -1,
+//   "java.configuration.runtimes": [
+//  o 
+//   ],
+"maven.terminal.useJavaHome": true,
+
+}
